@@ -1,0 +1,100 @@
+
+.top-companies {
+    margin: 20px;
+}
+
+.topCompanies{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.topCompanies a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.topCompanies a:hover {
+    color: rgb(65, 60, 114);
+    text-decoration: underline;
+}
+
+
+.company-logos {
+    width: 90vw;
+    display: flex;
+    list-style-type: none;
+    overflow-x: scroll;
+    padding: 20px;
+    padding-top: 5px;
+    gap: 20px;
+}
+
+.company-logos::-webkit-scrollbar {
+    height: 3px;
+}
+
+.company-logos::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+.company-logos::-webkit-scrollbar-thumb {
+    background-color: #989898;
+    border-radius: 5px;
+}
+
+.company-logos::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.company-item {
+    flex: 0 0 auto;
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.company-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-desc img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;  
+    transition: transform 0.3s ease-in-out 
+}
+
+.company-item:hover .company-desc img {
+    transform: scale(1.05); 
+}
+
+.company-details {
+    flex-grow: 1;
+}
+
+.company-details h3 {
+    margin-bottom: 10px;
+}
+
+.company-details span {
+    font-weight: bold;
+    color: #333;
+}
+
+.company-details p {
+    margin: 10px 0;
+    color: #555;
+}

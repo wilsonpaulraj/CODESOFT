@@ -1,0 +1,7 @@
+{
+    "categories":{
+        "information technology": ["Software Developer", "Systems Analyst", "Network Administrator","Database Administrator","Full Stack Developer","Data Analyst"],
+        "health care": ["Physical Therapist", "Medical Assistant", "Registered Nurse", "Physician", "Pharmacist", "Surgeon"],
+        "finance": [""]
+    }
+}
