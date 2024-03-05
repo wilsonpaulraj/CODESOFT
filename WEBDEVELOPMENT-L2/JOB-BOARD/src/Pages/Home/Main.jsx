@@ -71,7 +71,7 @@ const Main = () => {
                         </p>
                         <center><button className='job-apply btn'
                             style={{
-                                backgroundColor: '#464646'
+                                // backgroundColor: 'red'
                             }}>Apply for a job</button></center>
                     </div>
                 </div>

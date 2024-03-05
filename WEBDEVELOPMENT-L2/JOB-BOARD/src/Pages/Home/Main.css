@@ -8,12 +8,24 @@
     src: url(/public/Fonts/Comfortaa/static/Comfortaa-Light.ttf);
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(/public/Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+
+
+h1, h2{
+    font-family: Raleway, sans-serif !important;
+    font-weight: 800;
+}
 
 
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -118,4 +130,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.job-apply{
+    background-color: rgb(150, 61, 61);
 }

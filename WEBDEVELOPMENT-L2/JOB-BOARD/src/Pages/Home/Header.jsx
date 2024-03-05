@@ -2,7 +2,7 @@
 import React from 'react';
 import './Header.css';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../../Components/Navbar/Navbar';
+import HomeNavbar from './HomeNavbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
  
@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <Navbar />
+        <HomeNavbar />
         <div className="div-1-1">
           <div className="div-1">
             <h1>
