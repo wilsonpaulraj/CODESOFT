@@ -3,7 +3,7 @@ import { FaSearch } from 'react-icons/fa'
 
 const JobSearchBanner = () => {
   return (
-    <div className='flex-col mx-56 my-12'>
+    <div className='flex-col my-12'>
         <div className='w-full'>
             <h1><span className=' text-7xl font-black text-indigo-500'>Unleash </span><span className=' text-6xl font-black text-[#545454]'>your Potential !</span></h1>
         </div>
